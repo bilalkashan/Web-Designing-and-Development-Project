@@ -1,0 +1,583 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0 auto;
+	width:1200px;
+	background-color:#151215;
+}
+
+/* Header */
+header{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	border-bottom:3px solid #963;
+	height:140px;
+}
+.side-header{
+	position:absolute;
+}
+.side-header a{
+	text-decoration:none;
+}
+.logo{
+	float:left;
+	margin:50px 10px 0 10px;
+}
+.title{
+	color:#FFF;
+	float:left;
+}
+h2{
+	font-size:33px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin:50px 0 0 0;
+}
+h5{
+	font-size:10px;
+}
+.slogan{
+	font-size:10px;
+	color:#963;
+	margin: 0 0 0 123px;
+}
+
+.slogan h5:hover{
+	color:#FFF;
+	transition:0.7s;
+}
+nav{
+	float:right;
+	
+}
+nav ul{
+	list-style:none;
+	margin:50px 0 0 0;
+}
+nav ul li{
+	float:left;
+	padding:20px;
+}
+nav ul li a{
+	color:#FFF;
+	font-size:13px;
+	text-decoration:none;
+
+}
+nav ul li a:hover{
+	border-bottom:3px solid #963;
+	padding: 0 0 12px 0;
+	font-weight:bold;
+}
+
+/* Main Slider */
+* {box-sizing: border-box; margin: 0;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width:1200px;
+  position:absolute;
+  margin:auto;
+  margin-top:0px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/* End */
+
+/* Latest News */
+.news{
+	border-bottom:2px solid #963;
+	padding-bottom:50px;
+}
+
+h1{
+	color:#FFF;
+	text-align:center;
+	margin-top:650px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:50px;
+}
+h1:hover{
+	color:#963;
+	transition:0.5s;
+
+}
+.bodybox{
+	padding:0;
+	margin:0;
+}
+
+.entrydate{
+	color:#963;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:60px;
+	padding:10px 10px 0 0;
+	margin:0;
+}
+.entrymonth{
+	color:#FFF;
+	font-size:15px;
+	margin-left:0;
+}
+.entrytext{
+	color:#CCC;
+	margin-top: -70px;
+	margin-left:7%;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+}
+.bodybox1{
+	padding:0;
+	margin-top:-95px;
+}
+
+.entrydate1{
+	margin-left:410px;
+	color:#963;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:60px;
+	padding:10px 10px 0 0;
+}
+.entrymonth1{
+	margin-left:410px;
+	color:#FFF;
+	font-size:15px;
+}
+.entrytext1{
+	color:#CCC;
+	margin-top: -70px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	margin-left:500px;
+}
+.bodybox2{
+	padding:0;
+	margin-top:-95px;
+}
+
+.entrydate2{
+	color:#963;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:60px;
+	padding:10px 10px 0 0;
+	margin-left:820px;
+}
+.entrymonth2{
+	color:#FFF;
+	font-size:15px;
+	margin-left:820px;
+}
+.entrytext2{
+	color:#CCC;
+	margin-top: -70px;
+	margin-left:910px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+}
+.news input[type="button"]{
+	margin-left:45%;
+	margin-top:80px;
+	background-color:#151215;
+	padding:15px;
+	border:1px solid white;
+	color:white;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+}
+.news input[type="button"]:hover{
+	color:#963;
+	border:1px solid #963;
+	transition:0.6s;
+}
+/* End */
+
+/* Our Services */
+.services{
+	border-bottom:2px solid #963;
+	padding-bottom:70px;
+}
+h6{
+	color:#FFF;
+	text-align:center;
+	margin-top: 45px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:45px;
+	padding-bottom:20px;
+}
+h6:hover{
+	color:#963;
+	transition:0.5s;
+
+}
+table tr th{
+	color:#CCC;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	margin:30px;
+}
+/* End */
+
+/* INFORMATION */
+.information{
+	border-bottom:2px solid #963;
+	padding-bottom:75px;
+}
+h6{
+	color:#FFF;
+	text-align:center;
+	margin-top: 45px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:45px;
+	padding-bottom:20px;
+}
+h6:hover{
+	color:#963;
+	transition:0.5s;
+
+}
+table tr td{
+	color: #D0C9C9;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 25px;
+}
+/* End */
+
+/* About */
+.main-content{
+	margin:20px;
+	padding:10px;
+}
+.content{
+	padding:30px 10px 20px 10px;
+	color:#CCC;
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+}
+.box{
+	width:270px;
+	height:auto;
+	float:left;	
+}
+h3{
+	font-size:40px;
+	color:#FFF;
+}
+.box ul{
+	list-style:none;
+	padding:0;
+}
+.box ul li{
+	color:#CCC;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:15px;
+	margin:0;
+	padding: 0 0 15px 0;
+}
+
+.box{
+	width:270px;
+	height:auto;
+	float:left;
+	margin-left:7%;		
+}
+h3{
+	font-size:40px;
+	color:#FFF;
+	padding-bottom:20px;
+	padding-top:50px;
+}
+.box ul{
+	list-style:none;
+	padding:0;
+}
+.box ul li{
+	color:#CCC;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:15px;
+	margin:0;
+	padding: 0 0 15px 0;
+	float:left;
+}
+table{
+	padding:10px 0 0 70px;;
+}
+table tr th{
+	padding:15px;
+}
+.
+/* End */
+
+/* Gallery */
+
+.gallery-item{
+	position:absolute;
+	margin: 30px 0 5px 0;
+}
+table tr th{
+	padding:8pxzzzzzzz;
+}
+/* End */
+
+/* Contact */
+.formbox{
+	position:absolute;
+	text-align: left;
+	width: 650px;
+	height: auto;
+	border-radius: 10px;
+	opacity: 0.7;
+	float: left;
+	margin-top: 100px;
+	padding-left: 50px;
+	
+	
+}
+.formbox input[type="text"]{
+	width: 300px;
+	background: none;
+	padding: 20px;	
+	border: none;
+	border: 2px solid hsla(0,0%,100%,1.00);
+	font-size: 15px;
+	color:#FFF;
+	margin-left: 50px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.formbox input[type="text"]:hover{
+	color: #FFF;
+	border: 2px solid #963;
+}
+::placeholder {
+  color: white;
+}
+.formbox textarea{
+	color:#FFF;
+	margin-left: 50px;
+	background-color:#151215;
+	width: 300px;
+	font-size: 15px;
+	padding: 20px;
+	border: none;
+	border: 2px solid hsla(0,0%,100%,1.00);
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.formbox textarea:hover{
+	color: #FFF;
+	border: 2px solid #963;
+}
+.formbox input[type="button"]{
+	font-size: 20px;
+	background-color:#151215;
+	border-radius: 2px;
+	padding: 10px;
+	margin: 30px;
+	width: 280px;
+	text-align: center;
+	font-weight: bold;
+	color: #963;
+	margin-left:10%;
+	border: 2px solid #963;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.formbox input[type="button"]:hover{
+	color: #FFFFFF;
+	border:  2px solid white;
+}
+.map{
+	margin:100px 70px 150px 0;
+	float:right
+}
+/* End */
+
+/* Services */
+.ourservices{
+	padding-bottom:70px;
+}
+p{
+	color: #D8D6D6;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin-top: 15px;
+	font-size: 20px;	
+}
+
+table tr th{
+	color:#CCC;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	margin:25px;
+	padding-top: 30px;
+}
+.clear{
+	clear:both;
+}
+/* End */
+
+
+/* Footer */
+footer{
+	width: 1200px;
+	height: 0 auto;
+	background-color: rgb(27, 24, 27);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding: 10px;
+	color: #FFFFFF;
+	position:absolute;
+	margin-top:30px;
+	
+}
+h3{
+	font-size:25px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.container{
+	margin: 0;
+	width: 100%;
+}
+.fbox{
+	margin-left:15px;;
+	list-style: none;
+	float: left;
+	width: 370px;
+	height: auto;
+}
+.fbox ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.fbox ul li {
+    padding: 10px 0 10px 0;
+	font-size:21px;
+}
+.fbox1{
+	margin-left:-40px;
+	list-style: none;
+	float: left;
+	width: 400px;
+	height: auto;
+}
+.fbox1 ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.fbox1 ul li {
+	font-family:Georgia, "Times New Roman", Times, serif;
+    padding: 10px 0 10px 0;
+	font-size:20px;
+}
+.fbox1 li ul li input[type="text"]{
+	background:none;
+	height:50px;
+	color:#FFF;
+	border:3px solid white;
+	border-radius:1px;
+	font-family:"Times New Roman", Times, serif;
+	padding:5px 0 5px 15px;
+	width:270px;
+	font-size:18px;
+}
+.fbox1 li ul li input[type="text"]:hover{
+	border:3px solid #963;
+	transition:0.5s;
+}
+.fbox1 li ul li input[type="button"]{
+	background:none;
+	height:50px;
+	color:#FFF;
+	border:3px solid white;
+	border-radius:1px;
+	font-family:"Times New Roman", Times, serif;
+	padding:5px 0 5px 0;
+	width:90px;
+	font-size:18px;
+}
+.fbox1 li ul input[type="button"]:hover{
+	border:3px solid #963;
+	transition:0.5s;
+	color:#963;
+}
+.copyrights{
+	text-align:center;
+	margin-top:300px;
+	color:#963;
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.copyrights:hover{
+	color:#FFF;
+	transition:0.5s;
+}
+
+
+
+
+
+
+
